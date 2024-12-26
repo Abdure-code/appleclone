@@ -1,0 +1,349 @@
+/* main style starts  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* main style end  */
+
+/* Header style */
+header {
+  background-color: black;
+  padding: 15px 0;
+  font-size: 17px;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  /* background-color: #fafafa; */
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.header_links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul li {
+  height: 25px;
+  opacity: 0.7;
+}
+
+.logo-link,
+.cart_icon,
+.search_icon {
+  width: 18px;
+}
+
+/* header style end  */
+
+/* First section banner (16-inch MacBook Pro)
+style */
+.macbookPro {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 30px 0;
+}
+.title h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+.descriptionmac p {
+  font-size: 2em;
+}
+
+.model p {
+  font-size: 0.86em;
+}
+
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.links-wrapper ul {
+  margin: 10px 0;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+  color: black;
+}
+.links-wrapper ul li a::after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+/* First section end here  */
+
+/* second section starts - iphone 11 pro  */
+.iphone11Pro {
+  background-image: url(../Images//home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.description p {
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+.price-tag p {
+  color: #86868b;
+  font-size: 0.85em;
+}
+
+/* third section  iphone11 style */
+.iphone11 {
+  background-image: url(../Images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Fourth section style*/
+.apple-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 10px;
+  /* flex-wrap: wrap; */
+}
+.appleWatch {
+  background-image: url(../Images/home/watch-series-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  width: 49.5%;
+  padding-top: 30px;
+
+  /* background-color: red; */
+}
+
+.appleCard {
+  background-image: url(../Images/home/apple-card.jpg);
+  height: 580px;
+  width: 49.5%;
+  /* background: yellow; */
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+}
+
+.apple_description {
+  max-width: 430px;
+  /* background: red; */
+  margin: 0 auto;
+  padding: 15px;
+}
+/* Fourth section style end */
+
+/* Fifth section style start */
+/* air pods pro & baby  */
+.tv-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  text-align: center;
+  background: #fff;
+}
+
+.apple-tv {
+  /* background-color: red; */
+  width: 49.5%;
+  background-image: url(../Images/home/apple-tv-background.jpg);
+  height: 580px;
+  background-position: center;
+  padding-top: 54px;
+  background-size: cover;
+}
+
+.AirPods {
+  /* background-color: yellow; */
+  width: 49.5%;
+  background-image: url(../Images/home/air-pods.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: black;
+  background-size: initial;
+  color: white;
+  padding-top: 54px;
+}
+
+.servant-logo {
+  padding: 200px 0 180px;
+}
+
+.links-more a {
+  text-decoration: none;
+  font-size: 0.85em;
+  color: rgb(0, 102, 204);
+}
+
+.links-more a::after {
+  font-family: "FontAwesome";
+  content: "\f144";
+  padding-left: 15px;
+  font-weight: 900;
+}
+.AirPods-pro-title h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.magic-desc {
+  padding: 10px;
+}
+
+/* Fifth section style end */
+
+/* Sixth section style start */
+
+.mack-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.MacBook-Pro {
+  background-image: url(../Images/home/macbook-pro.jpg);
+  width: 49.5%;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #fafafa;
+  padding-top: 30px;
+}
+
+.ipad {
+  background-image: url(../Images/home/new-ipad.jpg);
+  width: 49.5%;
+  height: 580px;
+  background-position: center;
+  padding-top: 30px;
+}
+.best {
+  padding: 10px;
+}
+
+/* Sixth section style ends here  */
+
+
+/* footer style starts */
+footer {
+  background-color: #f5f5f7;
+  font-size: 0.65em;
+  color: #86868b;
+}
+
+.text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 20px 0;
+}
+
+.text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.text-container a:hover {
+  text-decoration: underline;
+}
+.footer_links_wrapper {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer_links_wrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer_links_wrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.footer_links_wrapper a {
+  text-decoration: none;
+  color: #868e96;
+}
+.footer_links_wrapper a:hover {
+  text-decoration: underline;
+}
+.footer_links_wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #343a40;
+}
+.other {
+  border-bottom: 1px solid #868e96;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyright-container {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 10px 0 20px;
+}
+.terms {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-country {
+  display: flex;
+  justify-content: space-between;
+}
+.country_flag {
+  padding-right: 5px;
+}
+.footer-terms-link ul {
+  list-style: none;
+}
+
+.footer-terms-link a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-terms-link a:hover {
+  text-decoration: underline;
+}
+.footer-terms-link ul li {
+  padding: 0 5px;
+  border-left: 1px solid #ccc;
+}
+.footer-terms-link ul li:first-child {
+  border-left: none;
+}
+/* footer style ends  */
